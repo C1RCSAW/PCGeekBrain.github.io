@@ -1,0 +1,21 @@
+# Site settings
+title: Broke Code
+header-img: img/home-bg.png
+email: me@mendel.tech
+copyright_name: PCGeekBrain
+description: > # this means to ignore newlines until "baseurl:"
+  Just another tech blog
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: MMHornbacher
+github_username:  PCGeekBrain
+learn_profile: PCGeekBrain
+email_username: me@mendel.tech
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
