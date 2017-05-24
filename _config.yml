@@ -10,6 +10,7 @@ twitter_username: MMHornbacher
 github_username:  PCGeekBrain
 learn_profile: PCGeekBrain
 email_username: me@mendel.tech
+repository: pcgeekbrain/pcgeekbrain.github.io
 
 # Build settings
 markdown: kramdown
