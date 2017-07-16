@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rails and JSON: Not so freindly after all."
-date:   2017-07-16 22:41:07 +0000
+date:   2017-07-16 18:41:08 -0400
 ---
 
 
