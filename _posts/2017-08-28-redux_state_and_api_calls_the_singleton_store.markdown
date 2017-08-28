@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Redux state and API calls. The Singleton Store"
-date:   2017-08-28 03:30:12 +0000
+date:   2017-08-27 23:30:12 -0400
 ---
 
 ## Unified API calls with fetch.
@@ -38,13 +38,13 @@ export headers = () => {
 }
 
 export const parseResponse = response => {
-    return response.json()
-		    .then(json => {
-				    if(!response.ok && response.status === 401){
-						   store.dispatch(logOut()); // you can dispatch actions as well, think of logging out if token is invalid
-						}
-				}
-		}
+  return response.json()
+    .then(json => {
+      if(!response.ok && response.status === 401){
+        store.dispatch(logOut()); // you can dispatch actions as well, think of logging out if token is invalid
+      }
+    }
+  }
 }
 ```
 
